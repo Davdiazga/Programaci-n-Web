@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000; 
+            color: #fff; 
+        }
+        .navbar, footer {
+            background-color: #000; 
+        }
+        .navbar a, footer {
+            color: #fff; 
+        }
+        .card {
+            background-color: #1c1c1c; 
+            color: #fff; 
+        }
+        .list-group-item {
+            background-color: #1c1c1c; 
+            color: #fff;
+            margin-right: 200px;
+        }
+        .boton-seguir {
+            background-color: #007bff;
+            color: #fff; 
+            border: none;
+            padding: 10px 20px; 
+            font-size: 18px;    
+            width: 100px;       
+            height: 50px;       
+        }
+        .boton-seguir:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <div class="container">
+           
+            <a class="bi bi-laptop" href="#" style="text-decoration: none;">&nbsp;Mi Sitio Web</a>
+
+            <div>
+                <a href="#" class="me-3">Inicio</a>
+                <a href="#" class="me-3">Perfil</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="ImagenPerfil.jpg" alt="Desarrollador Web" class="mb-3 img-fluid">
+                        <h5 class="card-title">DAVID DIAZ</h5>
+                        <p class="card-text">Desarrollador Web</p>
+                        <button class="boton boton-seguir">Seguir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Acerca de mí</h3>
+                <p>Soy un desarrollador web apasionado por crear aplicaciones modernas y funcionales. Tengo experiencia en HTML, CSS, JavaScript y diversos frameworks de desarrollo web.</p>
+                <h4>Habilidades</h4>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="bi bi-file-earmark-code"></i> HTML</li>
+                    <li class="list-group-item"><i class="bi bi-palette"></i> CSS</li>
+                    <li class="list-group-item"><i class="bi bi-code-slash"></i> JavaScript</li>
+                    <li class="list-group-item"><i class="bi bi-bootstrap"></i> Bootstrap</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-4 text-center">
+        © 2024 Mi Sitio Web. Todos los derechos reservados.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
